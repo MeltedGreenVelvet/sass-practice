@@ -1,0 +1,14 @@
+header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  color: #222222;
+}
+header button {
+  background: rgb(0, 67, 75);
+}
+
+.contact button {
+  background: rgb(0, 67, 75);
+  color: #222222;
+}/*# sourceMappingURL=style.css.map */
