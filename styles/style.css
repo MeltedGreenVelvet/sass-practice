@@ -1,11 +1,15 @@
 header {
-  background: lightblue;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  background: lightblue;
   color: #222222;
 }
 header button {
   background: rgb(0, 67, 75);
+}
+header button::after {
+  content: "Hellooooooooooow";
 }
 
 .contact button {

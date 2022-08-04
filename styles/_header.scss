@@ -1,0 +1,19 @@
+@mixin flexCenter {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+
+    @include flexCenter();
+
+    background: lightblue;
+    color: $textColor;
+    button{
+        background: $primaryBtn;
+        &::after {
+            content: "Hellooooooooooow"
+        }
+    }
+}
